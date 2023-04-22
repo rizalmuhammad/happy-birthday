@@ -277,9 +277,6 @@ const animationTimeline = () => {
       },
       0.3
     )
-    .to(".wish h5", 0.7, ideaTextTransLeave, "+=1.5")
-    .from(".message-1", 0.7, ideaTextTrans)
-    .to(".message-1", 0.7, ideaTextTransLeave, "+=1.5")
     .to(".six", 0.5, {
       opacity: 0,
       y: 30,
