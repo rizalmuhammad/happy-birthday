@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="style/style.css">
 </head>
 
-<body onclick="playAudio();">
+<body>
   <audio id="song" class="song" hidden loop>
     <source src="img/hbd.mp3" type=”audio/mpeg”></source>
   </audio>
@@ -50,7 +50,7 @@
       </p>
     </div>
     <div class="six">
-      <img src="img/frh.png" alt="" class="farah-dp" data-node-name="imagePath">
+      <img src="img/frh.png" alt="" class="farah-dp" onclick="playAudio()" data-node-name="imagePath">
       <div class="wish">
         <h4 class="wish-hbd" data-node-name="wishHeading">Happy Birthday!</h4>
         <h5 data-node-name="wishText">May the js.prototypes always be with you! ;)</h5>
