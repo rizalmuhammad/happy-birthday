@@ -211,7 +211,7 @@ body {
 }
 
 .wish-hbd {
-  font-size: 3em;
+  font-size: 1.8em;
   margin: 0;
   text-transform: uppercase;
 }
@@ -232,7 +232,7 @@ body {
   position: absolute;
   left: 0;
   right: 0;
-  margin: -10;
+  margin: 0;
 }
 
 #replay {
@@ -293,7 +293,7 @@ body {
   }
 
   .wish-hbd {
-    font-size: 3em;
+    font-size: 1.8em;
   }
 
   .wish h5 {
