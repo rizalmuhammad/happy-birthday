@@ -265,6 +265,8 @@ const animationTimeline = () => {
       },
       "party"
     )
+    .from(".message-1", 0.7, ideaTextTrans)
+    .to(".message-1", 0.7, ideaTextTransLeave, "+=1.5")
     .staggerTo(
       ".eight svg",
       1.5,
