@@ -227,6 +227,13 @@ body {
   font-weight: lighter;
 }
 
+.ten p {
+  font-size: 2rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
 #replay {
   z-index: 3;
   cursor: pointer;
