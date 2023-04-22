@@ -253,8 +253,7 @@ const animationTimeline = () => {
         ease: Expo.easeOut
       },
       0.1,
-      "party",
-      ideaTextTransLeave
+      "party"
     )
     .from(
       ".wish h5",
