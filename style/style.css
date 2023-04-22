@@ -228,11 +228,8 @@ body {
 }
 
 .ten p {
-  font-size: 2rem;
+  font-size: 3rem;
   position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0;
 }
 
 #replay {
