@@ -400,7 +400,6 @@ const animationTimeline = () => {
   const replyBtn = document.getElementById("replay");
   replyBtn.addEventListener("click", () => {
     tl.restart();
-    document.getElementById('song').play();
   });
 
   const nama = document.getElementById("satu");
