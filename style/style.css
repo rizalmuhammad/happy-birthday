@@ -93,7 +93,7 @@ body {
 }
 
 .idea-3 strong {
-  padding: 3px 5px;
+  padding: 2px 3px;
   border-radius: 3px;
   display: inline-block;
 }
@@ -211,7 +211,7 @@ body {
 }
 
 .wish-hbd {
-  font-size: 2.2em;
+  font-size: 3em;
   margin: 0;
   text-transform: uppercase;
 }
@@ -293,7 +293,7 @@ body {
   }
 
   .wish-hbd {
-    font-size: 2.2em;
+    font-size: 3em;
   }
 
   .wish h5 {
