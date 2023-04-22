@@ -240,11 +240,6 @@ body {
   cursor: pointer;
 }
 
-#farah-dp{
-  z-index: 3;
-  cursor: pointer;
-}
-
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
