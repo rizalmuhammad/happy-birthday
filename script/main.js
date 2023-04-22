@@ -402,6 +402,11 @@ const animationTimeline = () => {
     tl.restart();
     document.getElementById('song').play();
   });
+
+  const nama = document.getElementById("satu");
+  nama.addEventListener("click", () => {
+    document.getElementById('song').play();
+  });
 };
 
 // Run fetch and animation in sequence
