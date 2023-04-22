@@ -15,8 +15,14 @@
   <audio id="song" class="song" controls hidden loop>
     <source src="img/hbd.mp3" type=”audio/mpeg”></source>
   </audio>
+  <script>
+    function play(){
+         var audio = document.getElementById("song");
+         audio.play();
+                   }
+     </script>
   <div class="container">
-    <div class="one">
+    <div class="one" onclick="play()">
       <h1 class="one">
         <span data-node-name="greeting">Hey</span>
         <span data-node-name="name">Lydia</span>
