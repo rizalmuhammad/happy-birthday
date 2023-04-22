@@ -1,3 +1,9 @@
+const audio = () => {
+  const playAudio = document.getElementById("farah-dp");
+  playAudio.addEventListener("click", () => {
+    document.getElementById('song').play();
+  });
+};
 // Import the data to customize and insert them into page
 const fetchData = () => {
   fetch("customize.json")
